@@ -1,0 +1,15 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  background-color: #d1d1d1;
+  border-radius: 30px;
+}
+
+.label {
+  color: #5a5a5a;
+  padding: 3px 9px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}

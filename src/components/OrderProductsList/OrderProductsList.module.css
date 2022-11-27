@@ -1,0 +1,57 @@
+.header {
+  margin-bottom: 10px;
+  display: flex;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+
+.footer {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.header > div:first-child,
+.footer > div:first-child {
+  min-width: 90px;
+}
+
+.header > div:not(:first-child),
+.footer > div:not(:first-child) {
+  flex-basis: 33.33%;
+  text-align: center;
+}
+
+.header > div:nth-child(2) {
+  text-align: start;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.totalTitle {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+
+  .footer > div:nth-child(4) {
+    flex-basis: 33.33%;
+    text-align: end;
+  }
+
+  .totalPrice {
+    font-weight: 700;
+  }
+}

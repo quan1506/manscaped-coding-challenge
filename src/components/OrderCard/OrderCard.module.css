@@ -1,0 +1,43 @@
+.orderCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 72px;
+  background-color: #e5e5e5;
+}
+
+.orderCardContent {
+  background-color: #fff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  margin: 20px 0 24px 0;
+}
+
+.orderTags {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.orderActions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .orderCard {
+    padding: 0;
+    gap: 4px;
+    background-color: #fff;
+  }
+
+  .orderCardContent {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,42 @@
+.orderHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1d1d1d;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 28px;
+}
+
+.title > span:first-child {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .orderHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    background-color: #e5e5e5;
+  }
+
+  .date {
+    text-align: start;
+    font-size: 0.75rem;
+    line-height: 16px;
+  }
+}
