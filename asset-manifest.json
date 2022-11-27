@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quan1506/manscaped-coding-challenge/static/css/main.1261adba.css",
+    "main.js": "/quan1506/manscaped-coding-challenge/static/js/main.fddd6ab4.js",
+    "static/js/787.800844f2.chunk.js": "/quan1506/manscaped-coding-challenge/static/js/787.800844f2.chunk.js",
+    "index.html": "/quan1506/manscaped-coding-challenge/index.html",
+    "main.1261adba.css.map": "/quan1506/manscaped-coding-challenge/static/css/main.1261adba.css.map",
+    "main.fddd6ab4.js.map": "/quan1506/manscaped-coding-challenge/static/js/main.fddd6ab4.js.map",
+    "787.800844f2.chunk.js.map": "/quan1506/manscaped-coding-challenge/static/js/787.800844f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1261adba.css",
+    "static/js/main.fddd6ab4.js"
+  ]
+}
